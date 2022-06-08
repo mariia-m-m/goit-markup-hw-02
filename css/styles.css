@@ -1,0 +1,78 @@
+:root{
+--primary-text-colour: #212121;
+--title-text-color: #212121;
+--text-color:#757575;
+--accent-color:#2196F3;
+--secondary-text-color:#ffffff;
+--primary-background-color:#ffffff;
+--background-color-dark:#2F303A;
+}
+
+body {
+    background-color:var(--primary-background-color);
+    color: var(--primary-text-colour);}
+    /* Logo */
+.logo {
+color: #000000;
+}
+.logo-web{
+    color: var(--accent-color);
+}
+.logo:hover,
+.logo:focus {
+color:var(--accent-color);}
+/* List */
+.list {
+    list-style: none;}
+    /* Site-naw */
+.site-nav .link {
+    color:var(--primary-text-colour);}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);}
+.site-nav .link.current {
+color:var(--accent-color);}
+.auth-nav .link{
+    color: var(--text-color);
+}
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+    color: var(--accent-color);
+}
+    /* Hero */
+.hero-title {
+    color: var(--secondary-text-color);
+    background-color:var(--background-color-dark);
+}
+.button{
+    color: var(--secondary-text-color);
+    background-color: var(--accent-color);
+}
+/* Section */
+.section {
+color: var(--primary-text-colour);
+}
+/* Features */
+.features .title{
+    color:var(--title-text-color)
+}
+.features .text{
+    color: var(--text-color);
+}
+/* Command */
+.command .text{
+    color:var(--text-color)
+}
+/* Footer */
+.address {
+    color: var(--secondary-text-color);
+    background-color: var(--background-color-dark);
+}
+.address-auth-nav .link{
+    color:var(--text-color);}
+    
+.address-auth-nav .link:hover,
+.address-auth-nav .link:focus {
+        color: var(--accent-color);
+        }
