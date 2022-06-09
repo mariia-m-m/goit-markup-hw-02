@@ -6,14 +6,30 @@
 --secondary-text-color:#ffffff;
 --primary-background-color:#ffffff;
 --background-color-dark:#2F303A;
+--background-color-button: #F5F4FA;
 }
 
 body {
     background-color:var(--primary-background-color);
-    color: var(--primary-text-colour);}
+    color: var(--primary-text-colour);
+font-family: Roboto,sans-serif;}
+.visually-hidden{
+position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+    }
     /* Logo */
 .logo {
 color: #000000;
+font-family: Raleway,sans-serif;
 }
 .logo-web{
     color: var(--accent-color);
@@ -76,3 +92,17 @@ color: var(--primary-text-colour);
 .address-auth-nav .link:focus {
         color: var(--accent-color);
         }
+
+        /* Portfolio */
+        .portfolio-nav{
+            color: var(--primary-text-colour);
+        }
+        .portfolio-nav .button-portfolio{
+            background-color: var(--background-color-button);
+        }
+        .portfolio-nav .button-portfolio:hover,
+        .portfolio-nav .button-portfolio:focus{
+            color:var(--secondary-text-color);
+            background-color:var(--accent-color);
+        }
+    
