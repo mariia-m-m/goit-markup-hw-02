@@ -37,10 +37,6 @@ line-height:1.19;
 text-decoration: none;}
 .logo-web{
     color: var(--accent-color);}
-.logo:hover,
-.logo:focus {
-color:var(--accent-color);}
-
 /* List */
 .list {
 list-style: none;}
@@ -65,7 +61,7 @@ letter-spacing:0.02em;
 text-decoration: none;
 font-weight: 500;
 font-size: 14px;
-line-height:1.14;}
+line-height: 1.14;}
 .auth-nav .link:hover,
 .auth-nav .link:focus {
 color: var(--accent-color);}
@@ -86,7 +82,7 @@ color: var(--accent-color);}
     letter-spacing:0.06em;
     font-family:inherit;
     font-size: 16px;
-    line-height:1.87;
+    line-height: 1.87;
     text-align: center;}
 
 /* Section */
@@ -102,10 +98,9 @@ text-align: center;}
     color:var(--title-text-color);
     font-weight: 700;
     font-size: 14px;
-    line-height:1.14;}
+    line-height: 1.14;}
 .features .text{
     color: var(--text-color);
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;}
 
@@ -113,22 +108,20 @@ text-align: center;}
 .name{
 font-weight: 500;
 font-size: 16px;
-line-height:1.19;
+line-height: 1.19;
 text-align: center;}
 .command .text{
     color:var(--text-color);
-    font-weight: 400;
     font-size: 16px;
-    line-height:1.19;
+    line-height: 1.19;
     text-align: center;}
 
 /* Footer */
 .address {
     color: var(--secondary-text-color);
     background-color: var(--background-color-dark);
-    font-weight: 400;
     font-size: 14px;
-    line-height:1.71;
+    line-height: 1.71;
     text-decoration: none;}
 .address:hover,
 .address:focus{
@@ -144,7 +137,8 @@ color: var(--accent-color);}
             font-weight: 500;
             font-size: 16px;
             line-height: 1.62;            
-            text-align: center;}
+            text-align: center;
+        cursor: pointer;}
         .portfolio-nav .button-portfolio:hover,
         .portfolio-nav .button-portfolio:focus{
             background-color:var(--accent-color);
@@ -157,10 +151,9 @@ color: var(--accent-color);}
             letter-spacing:0.06em;
             font-weight: 700;
             font-size: 18px;
-            line-height:2;}
+            line-height: 2;}
         .example .type {
                 color: var(--text-color);
-                font-weight: 400;
                 font-size: 16px;
                 line-height: 1.9;}
     
