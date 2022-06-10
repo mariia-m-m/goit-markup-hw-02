@@ -12,7 +12,8 @@
 body {
     background-color:var(--primary-background-color);
     color: var(--primary-text-colour);
-font-family: Roboto,sans-serif;}
+font-family: Roboto,sans-serif;
+letter-spacing:0.03em;}
 .visually-hidden{
 position: absolute;
     width: 1px;
@@ -30,6 +31,10 @@ position: absolute;
 .logo {
 color: #000000;
 font-family: Raleway,sans-serif;
+font-weight:700;
+font-size:26px;
+line-height:1.19;
+text-decoration: none;
 }
 .logo-web{
     color: var(--accent-color);
@@ -39,18 +44,28 @@ font-family: Raleway,sans-serif;
 color:var(--accent-color);}
 /* List */
 .list {
-    list-style: none;}
+list-style: none;}
     /* Site-naw */
-.site-nav .link {
-    color:var(--primary-text-colour);}
 
+.site-nav .link {
+color:var(--primary-text-colour);
+letter-spacing:0.02em;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+text-decoration: none;}
 .site-nav .link:hover,
 .site-nav .link:focus {
     color: var(--accent-color);}
 .site-nav .link.current {
 color:var(--accent-color);}
-.auth-nav .link{
-    color: var(--text-color);
+.auth-nav .link {
+color: var(--text-color);
+letter-spacing:0.02em;
+text-decoration: none;
+font-weight: 500;
+font-size: 14px;
+line-height:1.14;
 }
 .auth-nav .link:hover,
 .auth-nav .link:focus {
@@ -60,49 +75,84 @@ color:var(--accent-color);}
 .hero-title {
     color: var(--secondary-text-color);
     background-color:var(--background-color-dark);
+    letter-spacing:0.06em;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
 }
 .button{
     color: var(--secondary-text-color);
     background-color: var(--accent-color);
-}
+    font-weight: 700;
+    letter-spacing:0.06em;
+    font-family:inherit;
+    font-size: 16px;
+    line-height:1.87;
+    text-align: center;}
 /* Section */
 .section {
 color: var(--primary-text-colour);
 }
+.section-title {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+}
 /* Features */
 .features .title{
-    color:var(--title-text-color)
+    color:var(--title-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height:1.14;
 }
 .features .text{
     color: var(--text-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
 }
 /* Command */
-.command .text{
-    color:var(--text-color)
+.name{
+font-weight: 500;
+font-size: 16px;
+line-height:1.19;
+text-align: center;
 }
+.command .text{
+    color:var(--text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height:1.19;
+    text-align: center;}
 /* Footer */
 .address {
     color: var(--secondary-text-color);
     background-color: var(--background-color-dark);
+    font-weight: 400;
+    font-size: 14px;
+    line-height:1.71;
+    text-decoration: none;}
+.address:hover,
+.address:focus{
+color: var(--accent-color);
 }
-.address-auth-nav .link{
-    color:var(--text-color);}
-    
-.address-auth-nav .link:hover,
-.address-auth-nav .link:focus {
-        color: var(--accent-color);
-        }
-
         /* Portfolio */
+        /* Navigation */
         .portfolio-nav{
             color: var(--primary-text-colour);
         }
         .portfolio-nav .button-portfolio{
             background-color: var(--background-color-button);
+            font-family:inherit;
         }
         .portfolio-nav .button-portfolio:hover,
         .portfolio-nav .button-portfolio:focus{
-            color:var(--secondary-text-color);
-            background-color:var(--accent-color);
+            color:var(--accent-color);
+        }
+        /* Work-examples */
+        .title-example {
+            letter-spacing:0.06em;
         }
     
