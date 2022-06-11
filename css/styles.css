@@ -125,6 +125,8 @@ text-align: center;}
     font-size: 14px;
     line-height: 1.71;
     text-decoration: none;}
+address {
+        font-style: normal;}
 .address:hover,
 .address:focus{
 color: var(--accent-color);}
