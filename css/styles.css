@@ -130,6 +130,13 @@ address {
 .address:hover,
 .address:focus{
 color: var(--accent-color);}
+    .auth-nav-footer .link{
+        text-decoration: none;
+        font-size: 14px;
+        line-height: 1.71;
+        color: rgba(255, 255, 255, 0.6);
+        background-color: var(--background-color-dark);}
+   
 
         /* Portfolio */
         /* Navigation */
